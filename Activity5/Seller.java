@@ -14,9 +14,8 @@ public class Seller extends User {
 
     @Override
     public void showDashboard() {
-        System.out.println("======================================================");
         System.out.println(
-                "Good day " + getUsername() + "! you have " + getSellerAccess() + " to Kargo.");
+                "\nGood day " + getUsername() + "! you have " + getSellerAccess() + " to Kargo.");
         System.out.println();
         System.out.println("In this dashboard you can: ");
         System.out.println("1. Post batches");

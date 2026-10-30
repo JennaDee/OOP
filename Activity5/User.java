@@ -4,7 +4,6 @@ public abstract class User {
     private String username;
     private int yearJoined;
 
-    // Constructor
     public User(String username, int yearJoined) {
         this.yearJoined = yearJoined;
         this.username = username;

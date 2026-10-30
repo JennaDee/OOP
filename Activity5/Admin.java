@@ -10,8 +10,7 @@ public class Admin extends User {
 
     @Override
     public void showDashboard() {
-        System.out.println("======================================================");
-        System.out.println("Good day " + getUsername() + "! you have " + adminAccess + " to Kargo.");
+        System.out.println("\nGood day " + getUsername() + "! you have " + adminAccess + " to Kargo.");
         System.out.println();
         System.out.println("In this dashboard you can: ");
         System.out.println("1. View audit logs");
